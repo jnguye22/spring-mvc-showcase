@@ -50,5 +50,4 @@ public class ConvertController {
 	public @ResponseBody String customConverter(@RequestParam @MaskFormat("###-##-####") String value) {
 		return "Converted '" + value + "' with a custom converter";
 	}
-
 }
